@@ -9,6 +9,6 @@ Modify 'App.config' with settings that match your environment.
  - 'SleepTimeForLongPooling': time the application will wait between SQL requests on a long pooling test (in milliseconds)
  - 'dbConnString' (connection string): for .Net 4.5 'MultisubnetFailover=true' must be set. On .Net 4.6.1 that setting is not required
  
- Additionally, under the scripts folder you can find a PowerShell script that toggles SQL Server service state for the provided database host name.
+Additionally, under the scripts folder you can find a PowerShell script that toggles SQL Server service state for the provided database host name.
  
- You can read more about this project at http://johnlouros.com/blog/leveraging-multi-subnet-failover
+You can read more about this project at http://johnlouros.com/blog/leveraging-multi-subnet-failover
