@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMultiSubnetFailover-45", "TestMultiSubnetFailover-45.csproj", "{92810963-978A-46AC-8C89-B07B39153FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMultiSubnetFailover-461", "..\TestMultiSubnetFailover-461\TestMultiSubnetFailover-461.csproj", "{A5D94E13-4BFB-421A-9536-3A5E863D55DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{D722E95E-F2A3-45BA-BF20-56DA7902FB38}"
+	ProjectSection(SolutionItems) = preProject
+		..\scripts\Toggle-SqlServerService.ps1 = ..\scripts\Toggle-SqlServerService.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92810963-978A-46AC-8C89-B07B39153FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92810963-978A-46AC-8C89-B07B39153FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92810963-978A-46AC-8C89-B07B39153FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92810963-978A-46AC-8C89-B07B39153FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D94E13-4BFB-421A-9536-3A5E863D55DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D94E13-4BFB-421A-9536-3A5E863D55DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D94E13-4BFB-421A-9536-3A5E863D55DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D94E13-4BFB-421A-9536-3A5E863D55DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
